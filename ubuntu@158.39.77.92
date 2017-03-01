@@ -1,15 +1,9 @@
 package main
 
-import ( "./ascii"
-	"./iso"
-)
+import "./ascii"
 
 func main()  {
 	//ascii.IterateOverASCIIStringLiteral(ascii.Ascii)
 	ascii.GreetingASCII()
-	sl := iso.CreateExtendedASCII()
-	iso.IterateOverASCIIStringLiteral(sl)
-
-
 
 }
